@@ -18,7 +18,6 @@ private:
 	GLuint m_vertexShaderID;
 	GLuint m_fragmentShaderID;
 
-
 public:
 	enum class ShaderType { VERTEX_SHADER, FRAGMENT_SHADER };
 

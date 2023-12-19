@@ -8,6 +8,7 @@
 #include "Input.h"
 #include "Shader.h"
 #include "Quad.h"
+#include "ParticleSystem.h"
 
 bool running = true;
 
@@ -37,6 +38,8 @@ int main(int argc, char* arfv[]) {
 
 
 	Quad quad;
+	ParticleSystem particleSystem(1000);
+	particleSystem.SetUpSSBO();
 
 	//==================
 
